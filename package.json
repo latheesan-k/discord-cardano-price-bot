@@ -1,0 +1,23 @@
+{
+  "name": "discord-cardano-price-bot",
+  "version": "1.0.0",
+  "description": "Simple bot for Discord to show Cardano Price",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "author": "Latheesan Kanesamoorthy",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
